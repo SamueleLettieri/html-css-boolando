@@ -1,0 +1,28 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* inizio pag */
+header{
+    background-color: #FF6900;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+}
+
+.list{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    width: 100px;
+}
+
