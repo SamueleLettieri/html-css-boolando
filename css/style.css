@@ -4,13 +4,16 @@
     box-sizing: border-box;
 }
 /* inizio pag */
-header{
+.box{
     background-color: #FF6900;
     display: flex;
     justify-content: space-between;
     padding: 15px;
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
+    z-index: 3;
 }
 
 .list{
@@ -26,3 +29,131 @@ a{
     width: 100px;
 }
 
+/* centro dela pag */
+
+main{
+    margin-top: 8%;
+    margin-left: 15%;
+}
+
+.sezione-a{
+    display: block;
+    height: 450px;
+}
+
+.sezione-b{
+    display: block;
+    height: 450px;
+    margin-top: 80px;
+}
+
+section{
+    position: relative;
+    width: 300px;
+    display: inline-block;
+    margin-right: 1%;
+}
+
+.primo-soggetto{
+    width: 300px;   
+    position: absolute;
+    z-index: 1;
+}
+
+.primo-soggetto:hover{
+    display: none;
+}
+
+
+.sotto-img{
+    position: absolute;
+    width: 300px;
+}
+
+.cuore{
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 40px;
+    font-size: 30px;
+    padding-left: 10px;
+    z-index: 2;
+}
+
+.red:hover{
+    color: red;
+}
+
+.sconto{
+    position: relative;
+    left: 0;
+    top: 350px;
+    z-index: 2;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.bio{
+    position: relative;
+    left: 0;
+    top: 350px;
+    z-index: 2;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.sconto-1{
+    position: relative;
+    left: 0;
+    top: 350px;
+    z-index: 2;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.bio-1{
+    position: relative;
+    left: 0;
+    top: 350px;
+    z-index: 2;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+}
+
+
+.info{
+    position: relative;
+    top: 420px;
+    left: 0;
+}
+
+.prezzo{
+    color: red;
+}
+
+
+/* inizio fine pag */
+
+footer{
+    margin-top: 90px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    width: 100%; 
+    color: white;
+    
+}
+
+.list-2{
+    display: inline-block;
+    color: white;
+    padding-right: 8px;
+}
